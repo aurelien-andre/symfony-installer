@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+
+  symfony-installer:
+    image: aurelienandre/symfony-installer:latest
+    command: new --full lts
+    volumes:
+      - ./src:/app:rw,delegated

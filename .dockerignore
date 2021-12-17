@@ -1,0 +1,8 @@
+/data
+/.git
+/.gitignore
+/.idea
+/src/*
+/docker-compose.yml
+/Dockerfile
+/README.md
